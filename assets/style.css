@@ -41,3 +41,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 .biglogo{width:180px;display:block;margin:0 auto 20px;mix-blend-mode:lighten;border-radius:12px}
 :root{--acc:#1ec8ff}.btn,.lang button.on{color:#04121c}
 @media(max-width:780px){.logo .lt{display:none}}
+
+/* Terms page and long navigation links on small screens */
+.terms-policy h1{line-height:1.2;margin-bottom:10px}
+.terms-policy li{margin-bottom:7px}
+.terms-policy a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:780px){nav{gap:10px}nav a{font-size:12px}.lang button{padding:4px 6px}}
+@media(max-width:380px){header .wrap{padding:0 10px}.logo img{height:30px}nav{gap:7px}}
