@@ -14,6 +14,7 @@ nav{display:flex;gap:20px;align-items:center}nav a{color:var(--mut);font-size:15
 .hero .wrap{position:relative}.hero h1{font-size:clamp(34px,6vw,60px);line-height:1.1;max-width:620px}
 .hero p{color:#c9d1d9;max-width:520px;margin:18px 0 28px;font-size:18px}
 .btn{display:inline-block;background:var(--acc);color:#111;font-weight:700;padding:12px 24px;border-radius:8px}
+.btn.download{background:#2e7d32;color:#fff}
 .btn.ghost{background:none;border:1px solid var(--line);color:var(--txt);margin-left:10px}
 .btn.off{background:#2a313b;color:var(--mut);cursor:default}
 section{padding:80px 0}h2{font-size:32px;margin-bottom:8px}.sub{color:var(--mut);margin-bottom:36px}
@@ -25,6 +26,7 @@ section{padding:80px 0}h2{font-size:32px;margin-bottom:8px}.sub{color:var(--mut)
 .soon{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .soon div{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:40px 20px;text-align:center;color:var(--mut)}
 .soon b{display:block;font-size:40px;color:#3a434f}
+.soon img{display:block;width:min(100%,180px);height:auto;margin:0 auto 16px;border-radius:20px}
 .pilots{display:flex;justify-content:center;gap:-10px;margin-bottom:20px}.pilots img{width:70px;height:70px;border-radius:50%;border:3px solid var(--bg);margin-left:-12px;object-fit:cover}
 .contact{text-align:center}
 footer{border-top:1px solid var(--line);padding:24px 0;color:var(--mut);font-size:14px}
